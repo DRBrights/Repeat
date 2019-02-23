@@ -1,8 +1,52 @@
 h1{
     text-align: center;
+    z-index: 1000;
 }
 
+.background{
+    position: fixed;
+    z-index: -1;
+    top: 0px;
+}
 .a1{
     width: 500px;
-    height: content-box;
+    z-index: 100;
+    background-color: #ffe1f5;
+    border-radius: 10px;
+    margin-left: 50px;
+    padding: 20px 0 20px 20px;
+    font-weight: bold;
+    float: left;
+    margin-right: 50px;
 }
+.cities{
+    text-align: center;
+    vertical-align: center;
+    border-spacing: 30px;
+    background-color: #ffe1f5;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    z-index: 50;
+    margin-top: 18px;
+
+}
+caption{
+    font-weight: bold;
+    background-color: #ffe1f5;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: 18px;
+}
+
+.a2{
+    position: absolute;
+    width: 500px;
+    z-index: 100;
+    background-color: #ffe1f5;
+    border-radius: 10px;
+    margin-left: 50px;
+    padding: 20px 0 20px 20px;
+    font-weight: bold;
+    float: left;
+    margin-right: 50px;
+    top: 300px;
