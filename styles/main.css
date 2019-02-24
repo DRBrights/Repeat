@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Roboto', sans-serif;
+
+}
+@font-face {
+    font-family: 'Coiny', cursive;
+    src: url("../assets/fonts/Coiny-Regular.ttf");
+}
+
 h1{
     text-align: center;
     z-index: 1000;
@@ -9,6 +18,7 @@ h1{
     top: 0px;
 }
 .a1{
+    font-family: 'Roboto', sans-serif;
     width: 500px;
     z-index: 100;
     background-color: #ffe1f5;
@@ -39,6 +49,7 @@ caption{
 }
 
 .a2{
+    font-family: 'Coiny', cursive;
     position: absolute;
     width: 500px;
     z-index: 100;
