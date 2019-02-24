@@ -58,7 +58,7 @@ caption{
     margin-top: 18px;
 }
 
-.a2{
+.a2 {
     font-family: 'Coiny', cursive;
     position: absolute;
     width: 500px;
@@ -71,3 +71,8 @@ caption{
     float: left;
     margin-right: 50px;
     top: 300px;
+}
+
+/*.img{
+    background-image: url("https://raw.githubusercontent.com/DRBrights/Repeat/master/simple-lights-twitter-background.jpg");
+}*/
